@@ -5,7 +5,7 @@ let baseConfig = {
     mode: 'production',
     output: {
         path: path.join(__dirname, './dist'),
-        libraryTarget: 'commonjs'
+        libraryTarget: 'window'
     },
     node: {
         setImmediate: false,
