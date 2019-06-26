@@ -1,0 +1,42 @@
+{
+    "name": "@bundle/common",
+    "version": "0.0.0",
+    "description": "> TODO: description",
+    "author": "Allenice Mo <994298628@qq.com>",
+    "homepage": "https://github.com/MMF-FE/common-bundle/tree/master/packages/common#readme",
+    "license": "ISC",
+    "main": "lib/index.js",
+    "scripts": {
+        "dev": "webpack -w",
+        "build": "webpack"
+    },
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
+    "files": [
+        "lib"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MMF-FE/common-bundle.git"
+    },
+    "bugs": {
+        "url": "https://github.com/MMF-FE/common-bundle/issues"
+    },
+    "devDependencies": {
+        "webpack": "^4.35.0",
+        "webpack-cli": "^3.3.5",
+        "webpack-merge": "^4.2.1"
+    },
+    "dependencies": {
+        "axios": "^0.18.0",
+        "dayjs": "^1.8.14",
+        "js-cookie": "^2.2.0",
+        "lodash": "^4.17.11",
+        "mathjs": "^5.10.3",
+        "moment": "^2.24.0",
+        "ua-parser-js": "^0.7.19",
+        "xlsx": "^0.14.3"
+    }
+}

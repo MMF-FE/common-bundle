@@ -1,0 +1,44 @@
+{
+    "name": "@bundle/vue2",
+    "version": "0.0.0",
+    "description": "> TODO: description",
+    "author": "Allenice Mo <994298628@qq.com>",
+    "homepage": "https://github.com/MMF-FE/common-bundle/tree/master/packages/vue2#readme",
+    "license": "ISC",
+    "main": "lib/index.js",
+    "scripts": {
+        "dev": "webpack -w",
+        "build": "webpack"
+    },
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
+    "files": [
+        "lib"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MMF-FE/common-bundle.git"
+    },
+    "bugs": {
+        "url": "https://github.com/MMF-FE/common-bundle/issues"
+    },
+    "devDependencies": {
+        "webpack": "^4.35.0",
+        "webpack-cli": "^3.3.5",
+        "webpack-merge": "^4.2.1"
+    },
+    "dependencies": {
+        "echarts": "^4.2.1",
+        "vue": "^2.6.10",
+        "vue-class-component": "^7.1.0",
+        "vue-echarts": "^4.0.3",
+        "vue-lazyload": "^1.3.0",
+        "vue-property-decorator": "^8.2.1",
+        "vue-router": "^3.0.6",
+        "vue-svgicon": "^3.2.6",
+        "vuex": "^3.1.1",
+        "vuex-class": "^0.3.2"
+    }
+}

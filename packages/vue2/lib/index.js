@@ -7,17 +7,6 @@ import * as VueClassComponent from 'vue-class-component'
 import * as VuePropertyDecorator from 'vue-property-decorator'
 import VueSvgIcon from 'vue-svgicon'
 
-// 其他
-import * as Dayjs from 'dayjs'
-import * as Axios from 'axios'
-import * as Cookies from 'js-cookie'
-import * as moment from 'moment'
-import UAParser from 'ua-parser-js'
-
-// 定制
-import * as Lodash from 'lodash'
-import Mathjs from './mathjs'
-
 export {
     Vue,
     Vuex,
@@ -26,12 +15,5 @@ export {
     VuexClass,
     VueClassComponent,
     VuePropertyDecorator,
-    Dayjs,
-    Axios,
-    Cookies,
-    moment,
-    Lodash,
-    Mathjs,
-    UAParser,
     VueSvgIcon
 }

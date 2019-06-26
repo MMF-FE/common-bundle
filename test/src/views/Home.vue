@@ -26,13 +26,13 @@ export default class Home extends Vue {
     loaded = false
     chartConfig = pieConfig
     async created() {
-        await loadScript('http://127.0.0.1:8082/vue-echarts.js')
+        await loadScript('http://127.0.0.1:8081/vue2/vue-echarts.js')
         this.loaded = true
 
         // @ts-ignore
         Vue.component('vue-echarts', VueECharts)
 
-        await loadScript('http://127.0.0.1:8082/xlsx.js')
+        await loadScript('http://127.0.0.1:8081/common/xlsx.js')
         // @ts-ignore
         console.log(Xlsx)
     }
