@@ -7,7 +7,7 @@
 yarn build
 yarn test
 
-# 需要发布新修改的包
+# 需要发布新修改的包, 在项目根目录执行
 yarn publish:version
 ```
 
