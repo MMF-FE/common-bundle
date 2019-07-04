@@ -1,10 +1,10 @@
 let path = require('path')
 let merge = require('webpack-merge')
+const MomentLocalesPlugin = require('moment-locales-webpack-plugin')
 
 let baseConfig = {
     mode: 'production',
     output: {
-        path: path.join(__dirname, '../../dist/common'),
         libraryTarget: 'window'
     },
     node: {
@@ -16,8 +16,7 @@ let baseConfig = {
         net: 'empty',
         tls: 'empty',
         child_process: 'empty'
-    },
-    resolve: {}
+    }
 }
 
 // 主包配置
@@ -25,20 +24,14 @@ let MainConfig = merge({}, baseConfig, {
     entry: './lib/index.js',
     output: {
         filename: 'index.js'
-    }
-})
-
-// xlsx 配置
-let XlsxConfig = merge({}, baseConfig, {
-    entry: './lib/xlsx.js',
-    output: {
-        filename: 'xlsx.js'
     },
-    resolve: {
-        alias: {
-            xlsx: 'xlsx/dist/xlsx.js'
-        }
-    }
+    resolve: {},
+    module: {},
+    plugins: [
+        new MomentLocalesPlugin({
+            localesToKeep: ['zh-cn', 'zh-hk', 'zh-tw']
+        })
+    ]
 })
 
-module.exports = [MainConfig, XlsxConfig]
+module.exports = [MainConfig]

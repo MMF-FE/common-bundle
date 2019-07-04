@@ -2,15 +2,14 @@
     "name": "common-bundle",
     "version": "1.0.1",
     "description": "项目通用依赖包",
-    "main": "dist/index.js",
-    "scripts": {
-        "dev": "webpack -w",
-        "build": "webpack"
-    },
     "private": true,
     "workspaces": [
         "packages/*"
     ],
+    "scripts": {
+        "build": "lerna run build",
+        "test": "lerna run test"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/MMF-FE/common-bundle.git"

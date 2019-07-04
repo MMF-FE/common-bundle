@@ -16,7 +16,9 @@ let baseConfig = {
         tls: 'empty',
         child_process: 'empty'
     },
-    resolve: {}
+    resolve: {
+        alias: {}
+    }
 }
 
 // 主包配置
@@ -27,17 +29,4 @@ let MainConfig = merge({}, baseConfig, {
     }
 })
 
-// vue-echarts 配置
-let VueEchartsConfig = merge({}, baseConfig, {
-    entry: './lib/vue-echarts.js',
-    output: {
-        filename: 'vue-echarts.js'
-    },
-    resolve: {
-        alias: {
-            'vue-echarts': 'vue-echarts/dist/vue-echarts.js'
-        }
-    }
-})
-
-module.exports = [MainConfig, VueEchartsConfig]
+module.exports = [MainConfig]
