@@ -1,5 +1,5 @@
-require('../dist/index')
-require('../dist/vue-echarts')
+require('../../../dist/yzt-vue2/index')
+require('../../../dist/yzt-vue2/vue-echarts')
 
 describe('测试 yzt vue2', () => {
     test('所有的包都应该在 window 里面', () => {

@@ -1,5 +1,5 @@
 {
-    "name": "@bundle/yzt-vue2",
+    "name": "yzt-vue2",
     "version": "1.0.0",
     "description": "> TODO: description",
     "author": "Allenice Mo <994298628@qq.com>",
@@ -8,7 +8,7 @@
     "main": "lib/index.js",
     "scripts": {
         "dev": "webpack -w",
-        "build": "rm -rf ./dist && webpack",
+        "build": "rm -rf ../../dist/yzt-vue2 && webpack",
         "test": "jest"
     },
     "directories": {
