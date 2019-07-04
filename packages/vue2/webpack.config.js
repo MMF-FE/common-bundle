@@ -4,6 +4,7 @@ let merge = require('webpack-merge')
 let baseConfig = {
     mode: 'production',
     output: {
+        path: path.join(__dirname, '../../dist/vue2'),
         libraryTarget: 'window'
     },
     node: {

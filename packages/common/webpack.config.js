@@ -5,6 +5,7 @@ const MomentLocalesPlugin = require('moment-locales-webpack-plugin')
 let baseConfig = {
     mode: 'production',
     output: {
+        path: path.join(__dirname, '../../dist/common'),
         libraryTarget: 'window'
     },
     node: {

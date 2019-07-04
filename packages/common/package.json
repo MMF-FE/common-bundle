@@ -8,7 +8,7 @@
     "main": "lib/index.js",
     "scripts": {
         "dev": "webpack -w",
-        "build": "rm -rf ./dist && webpack",
+        "build": "rm -rf ../../dist/common && webpack",
         "test": "jest"
     },
     "directories": {

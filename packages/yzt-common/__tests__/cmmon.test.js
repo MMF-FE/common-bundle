@@ -1,4 +1,4 @@
-require('../dist/index')
+require('../../../dist/yzt-common/index')
 
 describe('测试 yzt 通用包', () => {
     test('所有的包都应该在 window 里面', () => {
