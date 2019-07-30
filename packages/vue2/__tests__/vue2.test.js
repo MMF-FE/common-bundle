@@ -10,5 +10,6 @@ describe('测试 vue2', () => {
         expect(window).toHaveProperty('VueClassComponent')
         expect(window).toHaveProperty('VuePropertyDecorator')
         expect(window).toHaveProperty('VueSvgIcon')
+        expect(window).toHaveProperty('Echarts')
     })
 })

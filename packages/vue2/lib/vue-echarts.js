@@ -1,3 +1,4 @@
+import Echarts from 'echarts/lib/echarts'
 import 'echarts/lib/chart/bar'
 import 'echarts/lib/chart/pie'
 import 'echarts/lib/chart/line'
@@ -7,4 +8,4 @@ import 'echarts/lib/component/graphic'
 
 import VueECharts from 'vue-echarts'
 
-export { VueECharts }
+export { VueECharts, Echarts }

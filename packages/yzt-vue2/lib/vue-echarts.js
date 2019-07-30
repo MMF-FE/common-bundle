@@ -1,3 +1,4 @@
+import __YZT_ECharts from 'echarts/lib/echarts'
 import 'echarts/lib/chart/bar'
 import 'echarts/lib/chart/pie'
 import 'echarts/lib/chart/line'
@@ -7,4 +8,4 @@ import 'echarts/lib/component/graphic'
 
 import __YZT_VueECharts from 'vue-echarts'
 
-export { __YZT_VueECharts }
+export { __YZT_VueECharts, __YZT_ECharts }
