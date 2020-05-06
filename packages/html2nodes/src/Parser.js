@@ -160,6 +160,6 @@ function html2nodes(data, tagStyle) {
         }
     })
 }
-// module.exports = html2nodes
+module.exports = html2nodes
 
-export { html2nodes }
+// export { html2nodes }

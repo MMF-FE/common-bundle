@@ -5,7 +5,8 @@ let baseConfig = {
     mode: 'production',
     output: {
         path: path.join(__dirname, '../../dist/html2nodes'),
-        libraryTarget: 'window'
+        libraryTarget: 'umd',
+        library: 'html2nodes'
     },
     node: {
         setImmediate: false,
