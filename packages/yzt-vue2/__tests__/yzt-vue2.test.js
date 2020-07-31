@@ -11,5 +11,6 @@ describe('测试 yzt vue2', () => {
         expect(window).toHaveProperty('__YZT_VuePropertyDecorator')
         expect(window).toHaveProperty('__YZT_VueECharts')
         expect(window).toHaveProperty('__YZT_ECharts')
+        expect(window).toHaveProperty('__YZT_ElementUI')
     })
 })
