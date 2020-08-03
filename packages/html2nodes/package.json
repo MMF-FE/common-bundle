@@ -1,6 +1,6 @@
 {
     "name": "html2nodes",
-    "version": "1.0.11",
+    "version": "1.0.15",
     "description": "小程序的 html 解释",
     "author": "vfasky <vfasky@gmail.com>",
     "homepage": "https://github.com/MMF-FE/common-bundle/tree/master/packages/common#readme",
