@@ -3,9 +3,6 @@
     "version": "1.0.5",
     "description": "项目通用依赖包",
     "private": true,
-    "workspaces": [
-        "packages/*"
-    ],
     "scripts": {
         "build": "lerna run build",
         "test": "lerna run test",

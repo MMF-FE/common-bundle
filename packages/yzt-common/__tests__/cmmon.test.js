@@ -7,6 +7,7 @@ describe('测试 yzt 通用包', () => {
         expect(window).toHaveProperty('Cookies')
         expect(window).toHaveProperty('Lodash')
         expect(window).toHaveProperty('UAParser')
+        expect(window).toHaveProperty('sobc_')
     })
 
     test('Lodash', () => {
