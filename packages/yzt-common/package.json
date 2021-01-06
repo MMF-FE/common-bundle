@@ -34,7 +34,7 @@
     },
     "dependencies": {
         "@sentry/browser": "^5.20.1",
-        "axios": "^0.19.2",
+        "axios": "^0.21.1",
         "dayjs": "^1.8.31",
         "js-cookie": "^2.2.1",
         "lodash": "^4.17.19",
