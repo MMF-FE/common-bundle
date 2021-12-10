@@ -4890,10 +4890,10 @@ vue-property-decorator@^8.2.1:
   dependencies:
     vue-class-component "^7.1.0"
 
-vue-router@^3.0.6:
-  version "3.3.4"
-  resolved "https://registry.npm.taobao.org/vue-router/download/vue-router-3.3.4.tgz?cache=0&sync_timestamp=1595736279100&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-router%2Fdownload%2Fvue-router-3.3.4.tgz#4e38abc34a11c41b6c3d8244449a2e363ba6250b"
-  integrity sha1-Tjirw0oRxBtsPYJERJouNjumJQs=
+vue-router@3.4.9:
+  version "3.4.9"
+  resolved "https://npm.yzops.net/vue-router/-/vue-router-3.4.9.tgz#c016f42030ae2932f14e4748b39a1d9a0e250e66"
+  integrity sha1-wBb0IDCuKTLxTkdIs5odmg4lDmY=
 
 vue-svgicon@^3.2.6:
   version "3.2.8"
