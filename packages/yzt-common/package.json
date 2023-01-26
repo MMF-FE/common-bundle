@@ -38,6 +38,6 @@
         "dayjs": "^1.8.31",
         "js-cookie": "^2.2.1",
         "lodash": "^4.17.19",
-        "ua-parser-js": "^0.7.21"
+        "ua-parser-js": "^0.7.33"
     }
 }
